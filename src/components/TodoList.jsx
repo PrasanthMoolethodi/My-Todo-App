@@ -13,7 +13,7 @@ function TodoList(props) {
 
   return (
     <div>
-        {filteredTodos.map((todo, todoIndex) => {
+        {filteredTodos?.map((todo, todoIndex) => {
             return (<TodoCard key={todoIndex} todo={todo} handleUpdateTodo={handleUpdateTodo} 
               todoIndex={todos.findIndex(val => val.input === todo.input)}
                handleDeleteTodo={handleDeleteTodo} />)
