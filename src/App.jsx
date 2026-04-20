@@ -5,7 +5,6 @@ import Tabs from './components/Tabs'
 import TodoList from './components/TodoList'
 import TodoInput from './components/TodoInput'
 
-
 function App() {
   const [todos, setTodos] = useState([
     {
