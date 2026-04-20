@@ -16,9 +16,9 @@ return (
                 <button key={index} 
                     onClick={()=>{handleTabSelected(tab)}} 
                     className={tab === tabSelected ? 'tab-selected' : '' }><h2>{tab}(
-                    {tab === "All" ? todos.length : tab === "Open" ? 
-                    todos.filter(val => !val.complete).length : 
-                    todos.filter(val => val.complete).length}
+                    {tab === "All" ? todos?.length : tab === "Open" ? 
+                    todos?.filter(val => !val.complete).length : 
+                    todos?.filter(val => val.complete).length}
                 )</h2></button>
             )
         })}
