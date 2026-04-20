@@ -53,7 +53,7 @@ function App() {
 
   return (
     <>
-      <Header todos={todos.length}/>
+      {/* <Header todos={todos?.length}/> */}
       <Tabs todos={todos} tabSelected={tabSelected} setTabSelected={setTabSelected}/>
       <TodoInput handleAddTodoFunc={handleAddTodoFunc}/>
       <TodoList todos={todos} tabSelected={tabSelected} handleUpdateTodo= {handleUpdateTodo} handleDeleteTodo={handleDeleteTodo}/>
