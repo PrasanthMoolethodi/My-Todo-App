@@ -5,28 +5,6 @@ import Tabs from './components/Tabs'
 import TodoList from './components/TodoList'
 import TodoInput from './components/TodoInput'
 
-const todosData = [
-  {
-    input: "Hello! Add your first todo!",
-    complete: true
-  },
-  {
-    input: "Get the groceries!",
-    complete: false
-  },
-  {
-    input: "Learn how to web design",
-    complete: false
-  },
-  {
-    input: "Learn React js and get hired with top salary",
-    complete: false
-  },
-  {
-    input: "Say hi to gran gran",
-    complete: true
-  }
-]
 
 function App() {
   const [todos, setTodos] = useState([
